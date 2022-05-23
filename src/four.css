@@ -1,0 +1,19 @@
+#four div {
+  margin-top: 2vw;
+  margin-left: 5vw;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+#four div.active {
+  animation: color 1s linear infinite alternate;
+}
+@keyframes color {
+  0% {
+    background-color: red;
+  }
+  100% {
+    background-color: yellow;
+  }
+}

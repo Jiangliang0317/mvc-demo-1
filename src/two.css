@@ -1,0 +1,25 @@
+#two {
+  display: flex;
+  flex-wrap: wrap;
+}
+#two > ul {
+  width: 100%;
+}
+#two > ul > li {
+  display: flex;
+}
+#two > ul > li:nth-child(1) > div {
+  width: 50%;
+  height: 30px;
+  border: 2px solid #000;
+}
+#two > ul > li:nth-child(1) > div.select {
+  border: 2px solid red;
+  background-color: yellow;
+}
+#two > ul > li:nth-child(2) > span {
+  display: none;
+}
+#two > ul > li:nth-child(2) > span.show {
+  display: block;
+}

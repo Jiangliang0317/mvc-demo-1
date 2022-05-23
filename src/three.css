@@ -1,0 +1,12 @@
+#three div {
+  width: 10vw;
+  height: 10vw;
+  margin-top: 5vw;
+  margin-left: 5vw;
+  border: 1px solid rgb(179, 179, 179);
+  background-color: rgb(173, 173, 173);
+  transition: transform 1s;
+}
+#three div.active {
+  transform: translateX(30vw);
+}
